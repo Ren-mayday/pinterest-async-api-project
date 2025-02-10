@@ -2,6 +2,7 @@ import "./style.css";
 import { NavButton } from "./src/components/NavButton/NavButton";
 import { SearchBarInput } from "./src/components/SearchBarInput/SearchBarInput";
 import { IconButton } from "./src/components/IconButton/IconButton";
+import pinterestLogo from "./assets/Pinterest.svg.png";
 
 const accessKey = import.meta.env.VITE_UNSPLASH_ACCESS_KEY;
 let currentPage = 1;
@@ -27,7 +28,7 @@ navBar.appendChild(divLeftSideNav);
 
 //!Paso 4: Crear un elemento img que será el logo
 const imgLogo = document.createElement("img");
-imgLogo.src = "assets/Pinterest.svg.png"; //* Añado la imagen
+imgLogo.src = pinterestLogo; //* Añado la imagen
 imgLogo.alt = "Pinterest Logo"; //* Añado un alt text
 imgLogo.className = "pinterestLogo"; //* Añado una class
 divLeftSideNav.appendChild(imgLogo);
