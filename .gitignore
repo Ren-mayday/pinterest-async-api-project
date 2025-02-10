@@ -24,4 +24,4 @@ dist-ssr
 *.sw?
 
 # Archivo .gitignore
-.env
+
