@@ -31,7 +31,7 @@ export const SearchBarInput = ({ text, onSearch }) => {
 
   // Creo el search button
   const searchButton = document.createElement("button");
-  searchButton.type = "submit"; // Change to submit type
+  searchButton.type = "submit";
   searchButton.textContent = "🔎";
   searchButton.classList.add("search-button");
 
